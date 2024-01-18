@@ -39,7 +39,6 @@ const SecondPage = () => {
           ) as UserDetails;
           setUserDetails(parsedUserDetails);
         } else {
-          // turnSignUp();
         }
       } catch (error) {
         console.error("Error parsing user details:", error);
@@ -67,6 +66,7 @@ const SecondPage = () => {
       </div>
       <Department />
       <Table />
+      <button onClick={turnSignUp}>click Here</button>
     </div>
   );
 };

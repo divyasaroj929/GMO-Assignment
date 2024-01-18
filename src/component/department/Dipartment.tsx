@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./index.css";
 interface SubDepartment {
   id: number;
@@ -31,7 +31,7 @@ const departmentData: Department[] = [
 ];
 
 const Department = () => {
-  const [expandedDepartments, setExpandedDepartments] = useState([]);
+  const [expandedDepartments, setExpandedDepartments] = useState<number[]>([]);
 
   const toggleDepartment = (departmentId: number) => {
     setExpandedDepartments((prevExpanded: any) =>

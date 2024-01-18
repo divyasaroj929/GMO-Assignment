@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import axios from "axios";
 import { DataGrid, GridColDef } from "@mui/x-data-grid";
 import { Post } from "../../modal";
@@ -38,7 +38,6 @@ const Table: React.FC = () => {
               },
             },
           }}
-          rowsPerPageOptions={[5, 10, 20]}
           checkboxSelection
         />
       </div>
