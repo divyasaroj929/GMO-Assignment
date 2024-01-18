@@ -1,0 +1,113 @@
+.second-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 20px; */
+  box-shadow: 0px 0px 5px 0px rgb(209, 207, 207);
+}
+.container {
+  height: 80vh;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 5px 0px rgb(209, 207, 207);
+}
+.title {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  height: auto;
+  width: 90%;
+  padding: 30px;
+  text-align: center;
+}
+label {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Nunito Sans", sans-serif;
+  text-transform: capitalize;
+  background-color: #fff;
+  padding: 0px 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: flex-start;
+  white-space: nowrap;
+  color: rgb(27, 22, 22);
+  display: none;
+}
+.all-input-box input {
+  width: 100%;
+  height: 40px;
+  font-size: 13px;
+  outline: none;
+  padding-left: 10px;
+  gap: 0px 10px;
+  border: none;
+  outline: none;
+  /* border: 1px solid rgb(119, 122, 122); */
+  border-bottom: 1px solid rgb(119, 122, 122);
+}
+input:focus {
+  border-bottom: 2px solid teal;
+}
+.heading-box {
+  height: 40px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  color: rgb(31, 28, 28);
+  padding-top: 10px;
+  /* border-bottom: 1px solid teal; */
+  white-space: nowrap;
+  font-weight: 500;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#submit {
+  border: none;
+  height: 35px;
+  width: 20%;
+  color: rgb(253, 249, 249);
+  background-color: rgb(37, 130, 133);
+  margin-top: 20px;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+}
+.div-3 {
+  margin: 5px 0px 10px 0px;
+}
+span {
+  font-size: 12px;
+  color: rgb(246, 83, 83);
+  display: flex;
+  margin-left: 8px;
+}
+.alert {
+  padding-top: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(94, 79, 79);
+  font-size: 10px;
+}
+.alert a {
+  color: rgb(193, 24, 24);
+  padding-left: 5px;
+}

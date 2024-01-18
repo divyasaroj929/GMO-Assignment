@@ -1,0 +1,36 @@
+.department-container {
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+}
+.department-container ul {
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  gap: 20px;
+}
+.department-container ul li {
+  position: relative;
+  height: 100%;
+  border: 1px solid gray;
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 10px;
+}
+.department-container ul li span {
+  font-size: 18px;
+  color: black;
+}
+
+.button {
+  height: 30px;
+  width: 50px;
+  border-radius: 20px;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 10px 20px 0px 30px;
+}
